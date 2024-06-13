@@ -1,0 +1,10 @@
+
+.tanpa-bootstrap{
+        border: none;
+        padding: 20 px;
+        background-color: tomato;
+        cursor: pointer;
+}
+.tanpa-bootstrap:hover{
+        background-color: brown;
+}

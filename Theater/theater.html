@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RectoFilm</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-custom {
+            background-color: #333;
+            color: white;
+        }
+
+        .navbar-brand img {
+            height: 40px;
+        }
+
+        .navbar-custom .form-inline {
+            flex-grow: 1;
+            max-width: 500px;
+        }
+
+        .navbar-custom .form-inline input {
+            width: 100%;
+        }
+
+        .navbar-custom .nav-item a {
+            color: white;
+        }
+
+        .navbar-custom .nav-item a:hover {
+            color: #ffd700;
+            /* Custom color on hover */
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile img {
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="RectoFilm Logo">
+            </a>
+            <form class="form-inline my-2 my-lg-0 mx-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Cari film yang kamu inginkan"
+                    aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <div class="profile">
+                <img src="profile.png" alt="Profile Image">
+                <a href="#" class="btn btn-outline-light">ANISA</a>
+            </div>
+        </div>
+        <div class="container mt-2">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Now Playing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Theaters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Up Coming</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Playing in JAKARTA</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- Theater -->
+    <div class="container mt-5">
+        <div class="list-group">
+            <!-- Bagian Atas -->
+            <div class="row">
+                <ul class="list-group list-group-horizontal col">
+                    <button type="button" class="list-group-item list-group-item-action">
+                        <span style="font-weight:bold">
+                            <img src="XXI.png">
+                        </span>
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action">
+                        <span style="font-weight:bold">
+                            <img src="Premiere.png">
+                        </span>
+                    </button>
+                    <button type="button" class="list-group-item list-group-item-action">
+                        <span style="font-weight:bold">
+                            <img src="IMAX.png">
+                        </span>
+                    </button>
+                </ul>
+            </div>
+
+            <!-- Bagian Bawah -->
+            <div class="list">
+                <div class="row">
+                    <ul class="list-group list-group-horizontal col">
+                        <button type="button" class="list-group-item list-group-item-action">
+                            <img src="Union.png"> CIPUTRA WORLD XXI
+                        </button>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="list-group list-group-horizontal col">
+                        <button type="button" class="list-group-item list-group-item-action">
+                            <img src="Union.png"> GRAND CITY XXI
+                        </button>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="list-group list-group-horizontal col">
+                        <button type="button" class="list-group-item list-group-item-action">
+                            <img src="Union.png"> LENMARC XXI
+                        </button>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="list-group list-group-horizontal col">
+                        <button type="button" class="list-group-item list-group-item-action">
+                            <img src="Union.png"> PAKUWON CITY XXI
+                        </button>
+                    </ul>
+                </div>
+                <div class="row">
+                    <ul class="list-group list-group-horizontal col">
+                        <button type="button" class="list-group-item list-group-item-action">
+                            <img src="Union.png"> PAKUWON MALL XXI
+                        </button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
